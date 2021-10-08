@@ -1,3 +1,8 @@
+/* 
+*  Reworked version of the Sleek theme. All credit to original creator @harbassan
+*  https://github.com/morpheusthewhite/spicetify-themes/tree/master/Sleek
+*/
+
 .main-rootlist-rootlistDividerGradient {
   display: none;
 }
@@ -5,7 +10,7 @@
 .main-rootlist-rootlistDivider {
   background-color: rgba(var(--spice-rgb-button-disabled), 0.8);
 }
-
+  
 input {
   background-color: unset !important;
   border-bottom: solid 1px var(--spice-text) !important;
@@ -629,4 +634,15 @@ ul.main-navBar-entryPoints > div.GlueDropTarget >* {
 }
 ul.main-navBar-entryPoints > div.GlueDropTarget >*.active {
   background: var(--spice-card);
+}
+
+
+
+
+
+/* My code
+*/
+
+.view-homeShortcutsGrid-shortcut .view-homeShortcutsGrid-main a {
+  color: white !important;
 }
